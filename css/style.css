@@ -1,4 +1,4 @@
-body p {
+body {
     margin: 0;
     padding: 0;
 }
@@ -8,80 +8,44 @@ body {
 
 }
 
-.box {
+nav {
     width: 100%;
-    height: 700px;
-    position: relative;
-
-}
-
-img {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: 50px auto 30px;
-}
-
-.login {
-    width: 440px;
-    height: 440px;
-    background-color: #fff;
+    min-width: 1200px;
     margin: 0 auto;
-    border-radius: 4px;
-    border: 1px solid #e3e3e3;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,.12);
-}
-
-.login p {
-    padding: 20px 0;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-#user{
-    outline-style: none ;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 10px 10px;
-    width: 380px;
-    font: 400 20px Arial;
-    margin: 40px 20px;
-}
-
-#password {
-    outline-style: none ;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 10px 10px;
-    width: 380px;
-    font: 400 20px Arial;
-    margin: 0 20px;
-}
-
-input:focus{
-    border-color: #66afe9;
-    outline: 0;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
-}
-
-button {
-    padding: 6px 10px;
-    margin: 30px 0 0 21px;
-    color: #fff;
-    font-size: 20px;
-    background-color: #44acb6;
-    border: 1px solid #44acb6;
-    border-radius: 4px;
-    cursor: pointer;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
-    outline-color: #44acb6;
-    background-clip: padding-box;
-    width: 400px;
-    height: 45px;
 }
 
 a {
     text-decoration: none;
-    color: rgb(111,191,199);
+    color: rgb(98,99,95);
+}
+
+a:hover {
+    color: #44acb6;
+}
+
+.team-name {
+    color: #000;
+    font: 700 20px Calibri,-apple-system,Helvetica Neue,Helvetica,PingFang SC,Microsoft YaHei,SimSun,sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: absolute;
+    left: 30%;
+}
+
+li {
+    display: inline-block;
 }
