@@ -1,4 +1,4 @@
-body {
+body h2{
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,7 @@ a:hover {
 
 .team-name {
     color: #000;
-    font: 700 20px Calibri,-apple-system,Helvetica Neue,Helvetica,PingFang SC,Microsoft YaHei,SimSun,sans-serif;
+    font: 700 25px Calibri,-apple-system,Helvetica Neue,Helvetica,PingFang SC,Microsoft YaHei,SimSun,sans-serif;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -43,9 +43,111 @@ ul {
     padding: 0;
     display: inline;
     position: absolute;
-    left: 30%;
+    left: 40%;
 }
 
 li {
     display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.dividing {
+    width: 2px;
+    height: 15px;
+    background-color: rgba(0,0,0,.3);
+}
+
+.personal_center {
+    position: absolute;
+    right: 5%;
+}
+
+a img {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(244,247,237);
+}
+
+a img:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+}
+
+#arrow {
+    width: 12px;
+    height: 12px;
+}
+
+.menu {
+    height: 600px;
+    width: 960px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow:rgba(0,0,0,.1) 0 0 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+}
+
+.setting {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    position: absolute;
+    right: 5%;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    border-radius: 10px;
+}
+
+.information {
+    height: 80px;
+    background-color: rgb(246,246,246);
+    border-radius: 10px 10px 0 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    line-height: 80px;
+}
+
+.personal_setting {
+    height: 80px;
+    background-color: #fff;
+    color: rgb(68,172,182);
+    text-align: center;
+}
+
+.personal_setting span {
+    font-size: 20px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.personal_setting:hover {
+    background-color: rgb(68,172,182);
+    cursor: pointer;
+    color: #fff;
+}
+
+.quit {
+    height: 90px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+.quit span{
+    font-size: 16px;
+    display: block;
+    line-height: 50px;
+}
+
+.quit span:hover {
+    background-color: rgb(68,172,182);
+    cursor: pointer;
+    color: #fff;
 }
